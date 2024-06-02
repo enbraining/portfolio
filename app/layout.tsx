@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={pretendard.className}>
         <Header />
-        {children}
+        <div className="main">{children}</div>
       </body>
     </html>
   );
