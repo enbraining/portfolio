@@ -12,7 +12,7 @@ export default function Home() {
         <h1 className="text-3xl font-semibold">개발이 재미있는</h1>
         <h1 className="text-3xl font-semibold">풀스택 개발자, <Bold input="김동학" />입니다</h1>
       </div>
-      <div className="flex gap-x-3 text-md font-medium">
+      <div className="flex gap-x-3 font-medium">
         <GithubLink />
         <LinkedInLink />
       </div>
