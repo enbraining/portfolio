@@ -1,5 +1,7 @@
+import Link from "next/link";
+
 export default function Page(){
     return (
-        <p>아직 뭐 없음</p>
+        <Link href={"https://until.blog/@enbraining"}>https://until.blog/@enbraining</Link>
     )
 }

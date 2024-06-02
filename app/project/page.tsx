@@ -19,21 +19,21 @@ export default function Page(){
             name: "UnderLive",
             subtitle: "랜덤채팅 서비스",
             tags: ["WebSocket", "Spring Boot", "PostgreSQL"],
-            content: "웹소켓을 이용한 랜덤채팅으로..."
+            content: "웹소켓을 이용한 1대1 랜덤채팅입니다."
         },
         {
             id: 4,
             name: "GOGO",
             subtitle: "체육대회 배팅 서비스",
             tags: ["QueryDSL", "Spring Boot", "Multi Module", "Java", "Spring Batch", "MySQL", "Docker"],
-            content: "asdf"
+            content: "GSM 체육대회에서 사용되었으며 해당 기간동안 계속해서 사용되는 만큼 빠른 유지보수를 위한 멀티모듈을 사용하여 프로젝트를 구성하게 되었습니다. Dockerfile과 Github Workflows를 이용한 CI/CD로 간편한 배포가 가능하며, Spring Batch를 이용해서 경기 10분 전 알림, 전화번호 인증 횟수 초기화 등의 로직을 개발하였습니다."
         },
         {
             id: 5,
             name: "소금이",
             subtitle: "동아리 팀원 응원 및 스케줄 관리 봇",
             tags: ["Typescript", "Firebase", "Day.js", "AWS"],
-            content: "asdf"
+            content: "MSG 동아리에서 팀원을 응원하기 위한 목적으로 만들어졌으며 스케줄 관리, 소금 주고받기 등의 기능이 있습니다."
         }
     ]
 
@@ -45,7 +45,7 @@ export default function Page(){
                     <p className="text-stone-800 text-lg">{project.subtitle}</p>
                 </div>
                 <div className="flex mb-4">{project.tags.map(tag => <div className="border px-2 py-1 mr-2 rounded-2xl" key={tag}>{tag}</div>)}</div>
-                <div className=" font-light">{project.content}</div>
+                <div className="font-light">{project.content}</div>
             </div>)}
         </main>
     )
