@@ -1,8 +1,10 @@
+"use server"
+
 import Bold from "./components/Bold";
 import { GithubLink } from "./components/links/Github";
 import { LinkedInLink } from "./components/links/LinkedIn";
 
-export default function Home() {
+export default async function Home() {
   return (
     <main>
       <div className="pb-10">
@@ -15,7 +17,8 @@ export default function Home() {
       <div className="flex gap-x-3 font-medium">
         <GithubLink />
         <LinkedInLink />
-      </div>
+      </div>    
+      <hr className="my-10" />
     </main>
   );
 }
