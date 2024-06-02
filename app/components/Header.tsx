@@ -6,8 +6,8 @@ export default function Header(){
             <Link href={'/'}>소개</Link>
             <Link href={'/'}>블로그</Link>
             <Link href={'/'}>프로젝트</Link>
-            <Link href={'/'}>프로젝트</Link>
-            <Link href={'/'}>프로젝트</Link>
+            <Link href={'/'}>자격증</Link>
+            <Link href={'/'}>히스토리</Link>
         </header>
     )
 }
