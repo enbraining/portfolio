@@ -1,11 +1,9 @@
-"use server"
-
 import Bold from "./components/Bold";
 import { GithubLink } from "./components/links/Github";
 import { LinkedInLink } from "./components/links/LinkedIn";
 
 export default async function Home() {
-  return (
+return (
     <main>
       <div className="pb-10">
         <p className="bg-slate-200 w-[250px] h-[250px] rounded-r-full">IMAGE</p>
