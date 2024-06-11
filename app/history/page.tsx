@@ -9,6 +9,11 @@ export default function Page(){
             id: 2,
             name: "데브콘 대전 : 삼월엔 데이터!",
             date: "2024년 03월 23일"
+        },
+        {
+            id: 3,
+            name: "드로이드나이츠",
+            date: "2024년 06월 11일"
         }
     ]
 
